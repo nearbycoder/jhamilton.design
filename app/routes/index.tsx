@@ -38,6 +38,12 @@ export default function Index() {
               </svg>{' '}
               Your Location - 36.1540° N, 95.9928° W
             </p>
+
+            <img
+              className="h-48 w-48 mt-4 hidden lg:block"
+              src="/images/logo.png"
+              alt="logo"
+            />
             <p className="pt-8 text-sm">
               Design is a passion of mine and I strive to make my clients home
               designs come to life.
@@ -90,9 +96,6 @@ export default function Index() {
           {/* Image from: http://unsplash.com/photos/MP0IUfwrn0A */}
         </div>
         {/* Pin to top right corner */}
-        <div className="absolute top-0 right-0 h-12 w-18 p-4">
-          <button className="js-change-theme focus:outline-none">🌙</button>
-        </div>
       </div>
     </div>
   );
